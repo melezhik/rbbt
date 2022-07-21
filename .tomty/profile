@@ -1,0 +1,8 @@
+#!raku
+
+%(
+  default => %(
+    skip => "example,experimental,flap,noroot,deprecated,flickering,clarify,flaky,slow",
+    only => "closed"
+  ),
+)
