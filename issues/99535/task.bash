@@ -17,6 +17,8 @@ cd $cache_dir
 
 echo "run $RUSTCBIN $cache_dir/code.rs ..."
 
+export LANG=zh_CN
+
 $RUSTCBIN $cache_dir/code.rs && ./code 2>&1
 
 
