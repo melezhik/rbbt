@@ -17,5 +17,6 @@ cd $cache_dir
 
 echo "run $RUSTCBIN $cache_dir/code.rs ..."
 
-$RUSTCBIN $cache_dir/code.rs
+$RUSTCBIN $cache_dir/code.rs && ./code 2>&1
+
 
